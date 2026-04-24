@@ -50,7 +50,7 @@ export default function ExpenseForm({ members, currentUser, roomId, onClose, onA
       <div className="bg-white rounded-2xl w-full max-w-md max-h-[90vh] overflow-y-auto shadow-xl">
         <div className="p-5">
           <div className="flex items-center justify-between mb-5">
-            <h2 className="text-lg font-bold text-gray-700">➕ เพิ่มรายการ</h2>
+            <h2 className="text-lg font-bold text-gray-700"> เพิ่มรายการ</h2>
             <button onClick={onClose} className="text-gray-400 hover:text-gray-600 text-2xl leading-none">&times;</button>
           </div>
 

@@ -47,7 +47,7 @@ export default function Expenses() {
           <p className="text-2xl font-bold text-primary-600">฿{total.toLocaleString()}</p>
         </div>
         <button className="btn-primary" onClick={() => setShowForm(true)}>
-          ➕ เพิ่มรายการ
+           เพิ่มรายการ
         </button>
       </div>
 
